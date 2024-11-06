@@ -9,10 +9,10 @@ from smartfarm.smartfarm_plantgrow import smartfarm_plantgrow
 from smartfarm.display_env_data import display_env_data
 from smartfarm.display_nutsol_data import display_nutsol_data
 from smartfarm.display_plantgrow_data import display_plantgrow_data
-from dashboard.cont_temp import IoTsmartCoTemp
-from dashboard.cont_humid import IoTsmartCoHumidity
-from dashboard.cont_pH import IoTsmartCopH
-from dashboard.cont_EC import IoTsmartCoEC
+from controlboard.cont_temp import IoTsmartCoTemp
+from controlboard.cont_humid import IoTsmartCoHumidity
+from controlboard.cont_pH import IoTsmartCopH
+from controlboard.cont_EC import IoTsmartCoEC
 
 # Set up Streamlit layout
 st.title("SmartFarm Monitoring and Control")
